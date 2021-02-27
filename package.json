@@ -1,0 +1,19 @@
+{
+  "name": "nodedynamic",
+  "version": "1.0.0",
+  "description": "Dynamic Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vishal Raj",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.11.18",
+    "validator": "^13.5.2"
+  }
+}
