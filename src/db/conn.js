@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // creating a database
-mongoose.connect("mongodb://localhost:27017/vishaldynamicweb", {
+mongoose.connect("mongodb+srv://god_07:4127@vishal.hc7k7.mongodb.net/test", {
     useCreateIndex:true,
     useNewUrlParser:true,
     useUnifiedTopology:true
