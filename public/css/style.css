@@ -83,7 +83,6 @@ label {
   font-size: 1.7rem;
   letter-spacing: 0.2rem;
   color: #777676;
-  text-transform: capitalize;
   margin-top: 1.5rem;
   margin-bottom: 5rem;
 }
@@ -109,6 +108,11 @@ label {
   transition: 0.5s all;
 }
 
+figure img {
+  width: 100%;
+  height:auto;
+}
+
 /* about us style starts  */
 
 .about-style {
@@ -122,6 +126,7 @@ label {
   color: #fd5c63;
   letter-spacing: 1px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .about-style .sub-heading,
@@ -161,13 +166,30 @@ label {
 
 .our-services .icon {
   margin-bottom: -21px;
-  transform: translateY(-50%);
+  transform: translateY(-10%);
   text-align: center;
+}
+
+.icon {
+  width:auto;
+  text-align:center;
+  padding:80px;
+}
+img {
+  max-width:100%;
+          height:auto;
 }
 
 .our-services h4 {
   font-size: 3rem;
   font-weight: bold;
+  position: relative;
+  top: 10px
+}
+
+.our-services-content {
+   position: relative;
+   top: -30px;
 }
 
 .our-services:hover h4,
@@ -272,7 +294,8 @@ footer {
   }
 
   figure img {
-    min-width: 100%;
+    width: 100%;
+    height:auto;
   }
 
   .hero-text p,
