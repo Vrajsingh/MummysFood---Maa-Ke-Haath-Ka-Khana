@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-//const MONGODB_URI = "mongodb+srv://god_07:4127@vishal.hc7k7.mongodb.net/mummyFood?retryWrites=true&w=majority";
+const uri = process.env.MONGODB_URI || "mongodb+srv://god_07:4127@vishal.hc7k7.mongodb.net/mummyFood?retryWrites=true&w=majority";
 // creating a database
-mongoose.connect("mongodb+srv://god_07:4127@vishal.hc7k7.mongodb.net/mummyFood?retryWrites=true&w=majority", {
+mongoose.connect(uri, {
     useCreateIndex:true,
     useNewUrlParser:true,
     useUnifiedTopology:true
