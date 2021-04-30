@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
 
 
 
-app.post("/", async(req, res) => {
+app.post("/contact", async(req, res) => {
   try{
     //res.send(req.body);
     const userData = new User(req.body);
