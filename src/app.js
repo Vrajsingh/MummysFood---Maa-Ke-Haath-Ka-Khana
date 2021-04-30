@@ -7,6 +7,7 @@ const { registerPartials } = require("hbs");
 
 const app = express();
 const port = process.env.PORT || 3000;
+const uri = process.env.MONGODB_URI;
 
 //setting the path
 const staticpath = path.join(__dirname, "../public");
