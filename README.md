@@ -1,6 +1,8 @@
 # MummysFood---Maa-Ke-Haath-Ka-Khana
 ## An Initiative to Bring Homemade Food at Doorsteps !!
 
+#TECH_USED: Handlebars, CSS, Javascript, NodeJS, MongoDB, Heroku
+
 #WEBSITE_LINK : https://mummy-food.herokuapp.com/
 
 #YOUTUBE_VIDEO_DEMO: https://youtu.be/hvTGhsViNnA
